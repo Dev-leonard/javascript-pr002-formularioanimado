@@ -4,7 +4,7 @@ for (var i= 0; i<inputs.length; i++ ){
         if(this.value.length>=1) {
             this.nextElementSibling.classlist.add('fijar');
         } else {
-            this.nextElementSibling.classlist.remove('fijar');
+            this.nextElementSibling.classlist.remove('fijar');// practicar
         }
     })
 }
